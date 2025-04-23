@@ -4,9 +4,9 @@
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 
-#define SSID "Sonam"
-#define PASSWORD "9876543210"
-#define LINE_TOKEN "sgFI6XWWAbglwualoIZzvJ5TkPPsIz16iX7PYPZlX3H"
+#define SSID "<your_wifi_ssid>"
+#define PASSWORD "<your_wifi_password>"
+#define LINE_TOKEN "<your_line_notify_token>"
 #define PirPin 16
 #define rxPin 39
 #define txPin 36
@@ -40,7 +40,7 @@ int beat, bpm, countStatus;
 unsigned long millisBefore;
 
 
-String alertMSG = "Crash Detected!!! Check the Location here: https://www.google.com/maps/search/?api=1&query=13.8212516,100.5135891";
+String alertMSG = "Crash Detected!!! Check the Location here: https://www.google.com/maps/search/?api=1&query=";
 
 void setup() {
   Serial.begin(115200);
