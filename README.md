@@ -61,5 +61,9 @@ This project implements a smart safety helmet using an ESP32 microcontroller. Th
 | LED (Yellow)    | 14   |
 | LED (Green)     | 12   |
 
+## Demonstration
+
+Watch the demonstration video of the Safety Helmet ESP32 project on YouTube: [Safety Helmet ESP32 Demonstration](https://youtu.be/35y2INbGESs)
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
